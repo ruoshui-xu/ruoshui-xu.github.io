@@ -1,5 +1,148 @@
 ---
-title: "Research"
+title: "Research Projects"
+toc: false
+editor:
+  markdown:
+    wrap: 72
 ---
 
-这是我的Research主页正在建设中
+<style>
+#title-block-header {
+  display: none;
+}
+
+.project-intro {
+  max-width: 800px;
+  margin-bottom: 2.5rem;
+  color: var(--bs-secondary-color);
+}
+
+.project-entry {
+  align-items: start;
+}
+
+.project-title {
+  font-size: 1.3rem;
+  line-height: 1.35;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  white-space: nowrap;
+}
+
+.project-divider {
+  border: 0;
+  border-top: 1px solid #d9d9d9;
+  margin: 2.8rem 0;
+  opacity: 1;
+}
+
+@media (max-width: 992px) {
+  .project-title {
+    white-space: normal;
+  }
+}
+</style>
+
+<div class="project-intro">
+
+My research interests include applied statistics, Bayesian biostatistics, statistical computing, and clinical study design. I am particularly interested in developing practical and reproducible statistical methods for biomedical research, including Bayesian modeling, adaptive dose finding, longitudinal data analysis, and statistical consulting.
+
+</div>
+
+:::: {.grid .project-entry}
+
+::: {.g-col-12 .g-col-md-4}
+
+![](images/project_img/utility_curve.png){width="95%"}
+
+:::
+
+::: {.g-col-12 .g-col-md-8}
+
+<p class="project-title">
+Bayesian Shape-Constrained Modeling of Dose–Utility Curves
+</p>
+
+`R · MCMC · B-Splines · Bayesian Computation · Shape-Constrained Regression`
+
+This project developed a Bayesian shape-constrained spline model for
+estimating binary dose–utility relationships. I represented concavity
+on the logit scale through a cubic B-spline edge basis and nonnegative
+cone coefficients, then derived a custom auxiliary-variable Gibbs
+sampler with truncated normal and gamma updates.
+
+Using simulated efficacy and toxicity outcomes, I compared posterior
+utility estimates with the known generating curve and a
+shape-constrained maximum-likelihood fit.
+
+:::
+
+::::
+
+<hr class="project-divider">
+
+
+:::: {.grid .project-entry}
+
+::: {.g-col-12 .g-col-md-4}
+
+![](images/project_img/fig_selection.jpg){width="95%"}
+
+:::
+
+::: {.g-col-12 .g-col-md-8}
+
+<p class="project-title">
+Simulation-Based Comparison of CRM and BOIN Dose-Finding Designs
+</p>
+
+`R · C++ · Rcpp`
+
+This project implements and compares the **Continual Reassessment
+Method (CRM)** and the **Bayesian Optimal Interval (BOIN)** design for
+adaptive dose finding in Phase I clinical trials.
+
+I developed Monte Carlo simulation engines in C++ through Rcpp,
+including grid-based Bayesian posterior updating for CRM and isotonic
+regression for BOIN. The two methods were evaluated under three
+dose-toxicity scenarios based on MTD selection, patient allocation,
+toxicity, overdose exposure, and computational efficiency.
+
+:::
+
+::::
+
+<hr class="project-divider">
+
+
+:::: {.grid .project-entry}
+
+::: {.g-col-12 .g-col-md-4}
+
+![](images/project_img/hospital_falls_rate_ratios.jpg){width="95%"}
+
+:::
+
+::: {.g-col-12 .g-col-md-8}
+
+<p class="project-title">
+Bayesian Modeling of Hospital Fall Rates
+</p>
+
+`R · Stan · rstanarm · MCMC · Bayesian Poisson Regression`
+
+This project analyzed monthly hospital fall counts from a 26-month
+pre/post intervention study. I developed a hierarchical Bayesian
+Poisson regression model that adjusted for patient-day exposure,
+hospital-level heterogeneity, study period, intervention status, and
+unit-level patient characteristics.
+
+I evaluated model performance using MCMC convergence diagnostics,
+posterior predictive checks, and PSIS-LOO cross-validation. Posterior
+rate ratios indicated substantial uncertainty around the intervention
+effect, with no clear evidence that the intervention reduced fall rates
+relative to the control group.
+
+:::
+
+::::

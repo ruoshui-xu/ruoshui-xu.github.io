@@ -2,23 +2,65 @@
   {
     "objectID": "research.html",
     "href": "research.html",
-    "title": "Research",
+    "title": "Research Projects",
     "section": "",
-    "text": "这是我的Research主页正在建设中"
+    "text": "My research interests include applied statistics, Bayesian biostatistics, statistical computing, and clinical study design. I am particularly interested in developing practical and reproducible statistical methods for biomedical research, including Bayesian modeling, adaptive dose finding, longitudinal data analysis, and statistical consulting.\n\n\n\n\n\n\n\nBayesian Shape-Constrained Modeling of Dose–Utility Curves\n\nR · MCMC · B-Splines · Bayesian Computation · Shape-Constrained Regression\nThis project developed a Bayesian shape-constrained spline model for estimating binary dose–utility relationships. I represented concavity on the logit scale through a cubic B-spline edge basis and nonnegative cone coefficients, then derived a custom auxiliary-variable Gibbs sampler with truncated normal and gamma updates.\nUsing simulated efficacy and toxicity outcomes, I compared posterior utility estimates with the known generating curve and a shape-constrained maximum-likelihood fit.\n\n\n\n\n\n\n\n\n\nSimulation-Based Comparison of CRM and BOIN Dose-Finding Designs\n\nR · C++ · Rcpp\nThis project implements and compares the Continual Reassessment Method (CRM) and the Bayesian Optimal Interval (BOIN) design for adaptive dose finding in Phase I clinical trials.\nI developed Monte Carlo simulation engines in C++ through Rcpp, including grid-based Bayesian posterior updating for CRM and isotonic regression for BOIN. The two methods were evaluated under three dose-toxicity scenarios based on MTD selection, patient allocation, toxicity, overdose exposure, and computational efficiency.\n\n\n\n\n\n\n\n\n\nBayesian Modeling of Hospital Fall Rates\n\nR · Stan · rstanarm · MCMC · Bayesian Poisson Regression\nThis project analyzed monthly hospital fall counts from a 26-month pre/post intervention study. I developed a hierarchical Bayesian Poisson regression model that adjusted for patient-day exposure, hospital-level heterogeneity, study period, intervention status, and unit-level patient characteristics.\nI evaluated model performance using MCMC convergence diagnostics, posterior predictive checks, and PSIS-LOO cross-validation. Posterior rate ratios indicated substantial uncertainty around the intervention effect, with no clear evidence that the intervention reduced fall rates relative to the control group."
   },
   {
     "objectID": "experience.html",
     "href": "experience.html",
     "title": "Experience",
     "section": "",
-    "text": "这是我的Experience主页正在建设中"
+    "text": "My professional experience spans industry, teaching, and statistical consulting, with an emphasis on data analysis, quality control, statistical methodology, and interdisciplinary collaboration."
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blogs",
+    "objectID": "experience.html#academic-experience",
+    "href": "experience.html#academic-experience",
+    "title": "Experience",
+    "section": "Academic Experience",
+    "text": "Academic Experience\n\n\nAugust 2023 – Present\nFort Collins, CO\n\n\n\nGraduate Teaching Assistant & Instructor of Record\n\nColorado State University, Department of Statistics\n\n\nServed as instructor of record for multiple sections of STAT 301, independently preparing and delivering lectures, grading assignments and examinations, and administering course assessments.\nLed recitation sections and office hours for undergraduate statistics courses, providing individualized support, explaining statistical concepts, and helping students strengthen their problem-solving and data-analysis skills.\nSupported undergraduate and graduate statistics courses by grading coursework, reviewing and revising instructional materials, communicating student feedback to faculty, and serving as a liaison between instructors and students.\n\n\n\nCourses Taught and Supported\n\nInstructor of Record\n\n\nIntroduction to Applied Statistical Methods (STAT 301)\n\n\nSpring 2026\n\n\n\n\nIntroduction to Applied Statistical Methods (STAT 301)\n\n\nFall 2025\n\n\n\n\nIntroduction to Applied Statistical Methods (STAT 301)\n\n\nSummer 2025\n\n\n\n\nRecitation Instructor\n\n\nStatistics with Business Applications (STAT 204)\n\n\nSummer 2024\n\n\n\n\nStatistics with Business Applications (STAT 204)\n\n\nSpring 2024, 2025\n\n\n\n\nStatistics with Business Applications (STAT 204)\n\n\nFall 2023, 2024\n\n\n\n\nGeneral Statistics (STAT 201)\n\n\nSpring 2024\n\n\n\n\nTeaching Assistant\n\n\nStatistical Consulting (STAA 556)\n\n\nSummer 2026\n\n\n\n\nStatistical Research — Design, Data, Methods (STAT 472)\n\n\nSpring 2026\n\n\n\n\nDesign and Data Analysis for Researchers I (STAR 511)\n\n\nFall 2024\n\n\n\n\n\n\n\n\nJanuary 2026 – May 2026\nFort Collins, CO\n\n\nGraduate Statistical Consultant\n\nFranklin A. Graybill Statistics and Data Science Laboratory,\nColorado State University\n\n\nStaffed four hours of weekly drop-in consultation sessions, meeting with graduate students and faculty from across disciplines to clarify research questions and identify appropriate analytical next steps.\nProvided guidance on data formatting, data wrangling, visualization, and common statistical analyses, helping clients understand statistical methods and troubleshoot their implementation.\nDocumented consultation sessions, researched unresolved questions, followed up with clients, and referred complex or longer-term projects to faculty statistical consultants when appropriate.\n\n\n\n\n\nAugust 2020 – May 2021\nWest Lafayette, IN\n\n\nGraduate Statistical Consultant\n\nStatistical Consulting Service,\nPurdue University Department of Statistics\n\n\nProvided statistical consulting support to more than 20 clients from diverse academic disciplines, helping clarify research objectives, evaluate study designs, and identify appropriate analytical approaches.\nConducted initial and follow-up consultations in collaboration with clients, faculty advisors, and SCS faculty, and communicated statistical recommendations throughout each project’s development.\nAuthored more than 100 consultation and project reports documenting research questions, study backgrounds, analytical recommendations, project progress, responsibilities, and next steps."
+  },
+  {
+    "objectID": "experience.html#industry-experience",
+    "href": "experience.html#industry-experience",
+    "title": "Experience",
+    "section": "Industry Experience",
+    "text": "Industry Experience\n\n\nAugust 2021 – July 2023\nDallas, TX\n\n\nData Analyst\n\nBioStone Animal Health LLC\n\n\nContributed to the development of an ELISA assay data analysis application through requirements definition, feature design, analytical output validation, project coordination, and user-feedback analysis.\nCollected, consolidated, and analyzed laboratory batch-testing data in Excel to evaluate diagnostic kit performance and prepare quality-control reports.\nRedesigned the company’s quality-control reporting template, establishing a standardized format that continued to be used for subsequent product batches.\nOrganized and tracked production and order data across diagnostic kit assembly, fulfillment, and distribution, and developed standard operating procedures to improve workflow consistency.\nCollaborated with laboratory, production, business, and international teams, including offices in Turkey and Guangzhou, to support product development and cross-regional operations.\nBuilt and maintained the company’s website using WordPress and HTML, and revised product instructions to improve technical accuracy and usability."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
     "section": "",
-    "text": "这是我的Blog主页正在建设中"
+    "text": "I enjoy traveling and driving. So far, I have visited 40 U.S. states. Each journey has given me opportunities to experience different cities and cultures, meeting new people, and creating unforgettable memories.\n\n\n\n\nA map of the United States with footprints marking the states I have visited.\n\n\n\n\n\n\n\n\n\n\nSome memories from intramural sports and tennis tournaments.\n\n\n\n\nI enjoy different racket sports, especially table tennis, badminton, and tennis. I started playing table tennis at a young age. During college, I was a member of both the university table tennis team and badminton team. They require quick reactions, but also patience and concentration.\n\n\n\n\n\n\n\nI also enjoy running and swimming. Over the years, I have completed several running and triathlon events. They gave me a different kind of feeling when I build endurance, consistency, and the ability to continue moving forward.\n\n\n2015\n\nQinhuangdao International Marathon\n\n\n\n2016\n\nBeijing International Triathlon\n\n\n\n2022\n\nDallas Marathon\n\n\n\n\n\n\n\n\n\nSome memories from running and triathlon events.\n\n\n\n\n\n\n\n\n\nScan the QR code to explore my travel notes.\n\n\n\n\nI also enjoy writing. During my travels, I document my journeys on my personal WeChat Official Account, 行囊中的梦 (Dreams in My Backpack). It is part travel diary and part photo wall, the people I have met, and the moments I want to remember.\nIf you are interested, you can scan the QR code to follow the account and browse my travel notes."
+  },
+  {
+    "objectID": "about.html#travel",
+    "href": "about.html#travel",
+    "title": "About Me",
+    "section": "",
+    "text": "I enjoy traveling and driving. So far, I have visited 40 U.S. states. Each journey has given me opportunities to experience different cities and cultures, meeting new people, and creating unforgettable memories."
+  },
+  {
+    "objectID": "about.html#playing",
+    "href": "about.html#playing",
+    "title": "About Me",
+    "section": "",
+    "text": "I enjoy different racket sports, especially table tennis, badminton, and tennis. I started playing table tennis at a young age. During college, I was a member of both the university table tennis team and badminton team. They require quick reactions, but also patience and concentration."
+  },
+  {
+    "objectID": "about.html#endurance",
+    "href": "about.html#endurance",
+    "title": "About Me",
+    "section": "",
+    "text": "I also enjoy running and swimming. Over the years, I have completed several running and triathlon events. They gave me a different kind of feeling when I build endurance, consistency, and the ability to continue moving forward.\n\n\n2015\n\nQinhuangdao International Marathon\n\n\n\n2016\n\nBeijing International Triathlon\n\n\n\n2022\n\nDallas Marathon"
+  },
+  {
+    "objectID": "about.html#writing",
+    "href": "about.html#writing",
+    "title": "About Me",
+    "section": "",
+    "text": "I also enjoy writing. During my travels, I document my journeys on my personal WeChat Official Account, 行囊中的梦 (Dreams in My Backpack). It is part travel diary and part photo wall, the people I have met, and the moments I want to remember.\nIf you are interested, you can scan the QR code to follow the account and browse my travel notes."
   },
   {
     "objectID": "index.html",

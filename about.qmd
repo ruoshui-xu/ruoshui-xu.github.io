@@ -1,0 +1,312 @@
+---
+title: "About Me"
+toc: false
+---
+
+<style>
+
+#title-block-header {
+  display: none;
+}
+
+.about-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Three main sections */
+
+.about-section {
+  padding: 2.75rem 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.about-section:first-child {
+  padding-top: 1.5rem;
+}
+
+.about-section:last-child {
+  border-bottom: none;
+}
+
+.about-section h2 {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  font-size: 1.65rem;
+}
+
+/* Text and image layout */
+
+.section-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(240px, 0.8fr);
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.section-row.reverse {
+  grid-template-columns: minmax(240px, 0.8fr) minmax(0, 1.35fr);
+}
+
+.about-section p {
+  line-height: 1.75;
+}
+
+/* Images */
+
+.section-photo {
+  display: block;
+  width: 82%;
+  max-width: 280px;
+  height: auto;
+  max-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.section-photo + .section-photo {
+  margin-top: 0.75rem;
+}
+
+.image-caption {
+  max-width: 280px;
+  margin: 0.65rem auto 0;
+  color: #777777;
+  font-size: 0.85rem;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Endurance event list */
+
+.event-list {
+  margin-top: 1.5rem;
+  border-top: 1px solid #e8e8e8;
+}
+
+.event-item {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.event-year {
+  font-weight: 600;
+}
+
+.event-name {
+  display: block;
+  font-weight: 600;
+}
+
+/* WeChat QR code */
+
+.wechat-qr {
+  display: block;
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+/* Mobile layout */
+
+@media (max-width: 768px) {
+
+  .about-section {
+    padding: 2rem 0;
+  }
+
+  .section-row,
+  .section-row.reverse {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .section-row.reverse .section-image-column {
+    order: 2;
+  }
+
+  .event-item {
+    grid-template-columns: 55px 1fr;
+  }
+
+}
+
+</style>
+
+<div class="about-page">
+
+::: {.about-section}
+
+<div class="section-row">
+
+<div>
+
+## Travel
+
+I enjoy traveling and driving. So far, I have visited **40 U.S. states**. Each journey has given me opportunities to experience different cities and cultures, meeting new people, and creating unforgettable memories.
+
+</div>
+
+<div class="section-image-column">
+
+<img
+  class="section-photo"
+  src="images\about_img\travel\us_footprints.png"
+  alt="Map of the United States with footprints marking visited states">
+
+<p class="image-caption">
+A map of the United States with footprints marking the states I have visited.
+</p>
+
+</div>
+
+</div>
+
+:::
+
+::: {.about-section}
+
+<div class="section-row reverse">
+
+<div class="section-image-column">
+
+<img
+  class="section-photo"
+  src="images\about_img\sports\table_tennis.jpg"
+  alt="Playing table tennis"
+>
+
+<img
+  class="section-photo"
+  src="images\about_img\sports\tennis.png"
+  alt="Participating in a tennis tournament"
+>
+
+<p class="image-caption">
+Some memories from intramural sports and tennis tournaments.
+</p>
+
+</div>
+
+<div>
+
+## Playing
+
+I enjoy different racket sports, especially **table tennis, badminton, and tennis**. I started playing table tennis at a young age. During college, I was a member of both the university **table tennis team** and **badminton team**. They require quick reactions, but also patience and concentration.
+
+</div>
+
+</div>
+
+:::
+
+::: {.about-section}
+
+<div class="section-row">
+
+<div>
+
+## Endurance
+
+I also enjoy running and swimming. Over the years, I have completed several running and triathlon events. They gave me a different kind of feeling when I build endurance, consistency, and the ability to continue moving forward.
+
+<div class="event-list">
+
+<div class="event-item">
+<span class="event-year">2015</span>
+
+<div>
+<span class="event-name">Qinhuangdao International Marathon</span>
+</div>
+</div>
+
+<div class="event-item">
+<span class="event-year">2016</span>
+
+<div>
+<span class="event-name">Beijing International Triathlon</span>
+</div>
+</div>
+
+<div class="event-item">
+<span class="event-year">2022</span>
+
+<div>
+<span class="event-name">Dallas Marathon</span>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="section-image-column">
+
+<img
+  class="section-photo"
+  src="images\about_img\sports\dallas_marathon.JPG"
+  alt="Participating in the Dallas Marathon"
+>
+
+<img
+  class="section-photo"
+  src="images\about_img\sports\bj_triathlon.JPG"
+  alt="Participating in the Beijing International Triathlon"
+>
+
+<img
+  class="section-photo"
+  src="images\about_img\sports\qin_marathon.JPG"
+  alt="Participating in the Qinhuangdao International Marathon"
+>
+
+<p class="image-caption">
+Some memories from running and triathlon events.
+</p>
+
+</div>
+
+</div>
+
+:::
+
+::: {.about-section}
+
+<div class="section-row reverse">
+
+<div class="section-image-column">
+
+<img
+  class="wechat-qr"
+  src="images\about_img\writing\wechat_qr.jpg"
+  alt="QR code for my WeChat Official Account"
+>
+
+<p class="image-caption">
+Scan the QR code to explore my travel notes.
+</p>
+
+</div>
+
+<div>
+
+## Writing
+
+I also enjoy writing. During my travels, I document my journeys on my personal WeChat Official Account, **行囊中的梦** (*Dreams in My Backpack*). It is part travel diary and part photo wall, the people I have met, and the moments I want to remember.
+
+If you are interested, you can scan the QR code to follow the account and browse my travel notes.
+
+</div>
+
+</div>
+
+:::
+</div>

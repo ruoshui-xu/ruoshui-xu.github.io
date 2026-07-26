@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research – Ruoshui Xu</title>
+<title>Research Projects – Ruoshui Xu</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -105,8 +105,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Experience</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
-<span class="menu-text">Blogs</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./CV.pdf"> 
@@ -123,15 +123,13 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research</h1>
+<h1 class="title">Research Projects</h1>
 </div>
 
 
@@ -148,7 +146,86 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>这是我的Research主页正在建设中</p>
+<style>
+#title-block-header {
+  display: none;
+}
+
+.project-intro {
+  max-width: 800px;
+  margin-bottom: 2.5rem;
+  color: var(--bs-secondary-color);
+}
+
+.project-entry {
+  align-items: start;
+}
+
+.project-title {
+  font-size: 1.3rem;
+  line-height: 1.35;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  white-space: nowrap;
+}
+
+.project-divider {
+  border: 0;
+  border-top: 1px solid #d9d9d9;
+  margin: 2.8rem 0;
+  opacity: 1;
+}
+
+@media (max-width: 992px) {
+  .project-title {
+    white-space: normal;
+  }
+}
+</style>
+<div class="project-intro">
+<p>My research interests include applied statistics, Bayesian biostatistics, statistical computing, and clinical study design. I am particularly interested in developing practical and reproducible statistical methods for biomedical research, including Bayesian modeling, adaptive dose finding, longitudinal data analysis, and statistical consulting.</p>
+</div>
+<div class="grid project-entry">
+<div class="g-col-12 g-col-md-4">
+<p><img src="images/project_img/utility_curve.png" class="img-fluid" style="width:95.0%"></p>
+</div>
+<div class="g-col-12 g-col-md-8">
+<p class="project-title">
+Bayesian Shape-Constrained Modeling of Dose–Utility Curves
+</p>
+<p><code>R · MCMC · B-Splines · Bayesian Computation · Shape-Constrained Regression</code></p>
+<p>This project developed a Bayesian shape-constrained spline model for estimating binary dose–utility relationships. I represented concavity on the logit scale through a cubic B-spline edge basis and nonnegative cone coefficients, then derived a custom auxiliary-variable Gibbs sampler with truncated normal and gamma updates.</p>
+<p>Using simulated efficacy and toxicity outcomes, I compared posterior utility estimates with the known generating curve and a shape-constrained maximum-likelihood fit.</p>
+</div>
+</div>
+<hr class="project-divider">
+<div class="grid project-entry">
+<div class="g-col-12 g-col-md-4">
+<p><img src="images/project_img/fig_selection.jpg" class="img-fluid" style="width:95.0%"></p>
+</div>
+<div class="g-col-12 g-col-md-8">
+<p class="project-title">
+Simulation-Based Comparison of CRM and BOIN Dose-Finding Designs
+</p>
+<p><code>R · C++ · Rcpp</code></p>
+<p>This project implements and compares the <strong>Continual Reassessment Method (CRM)</strong> and the <strong>Bayesian Optimal Interval (BOIN)</strong> design for adaptive dose finding in Phase I clinical trials.</p>
+<p>I developed Monte Carlo simulation engines in C++ through Rcpp, including grid-based Bayesian posterior updating for CRM and isotonic regression for BOIN. The two methods were evaluated under three dose-toxicity scenarios based on MTD selection, patient allocation, toxicity, overdose exposure, and computational efficiency.</p>
+</div>
+</div>
+<hr class="project-divider">
+<div class="grid project-entry">
+<div class="g-col-12 g-col-md-4">
+<p><img src="images/project_img/hospital_falls_rate_ratios.jpg" class="img-fluid" style="width:95.0%"></p>
+</div>
+<div class="g-col-12 g-col-md-8">
+<p class="project-title">
+Bayesian Modeling of Hospital Fall Rates
+</p>
+<p><code>R · Stan · rstanarm · MCMC · Bayesian Poisson Regression</code></p>
+<p>This project analyzed monthly hospital fall counts from a 26-month pre/post intervention study. I developed a hierarchical Bayesian Poisson regression model that adjusted for patient-day exposure, hospital-level heterogeneity, study period, intervention status, and unit-level patient characteristics.</p>
+<p>I evaluated model performance using MCMC convergence diagnostics, posterior predictive checks, and PSIS-LOO cross-validation. Posterior rate ratios indicated substantial uncertainty around the intervention effect, with no clear evidence that the intervention reduced fall rates relative to the control group.</p>
+</div>
+</div>
 
 
 

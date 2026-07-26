@@ -19,8 +19,8 @@ website:
         href: research.qmd
       - text: "Experience"
         href: experience.qmd
-      - text: "Blogs"
-        href: blog.qmd
+      - text: "About"
+        href: about.qmd
       - text: "CV"
         href: CV.pdf
       

@@ -1,5 +1,346 @@
 ---
 title: "Experience"
+toc: false
 ---
 
-这是我的Experience主页正在建设中
+<style>
+#title-block-header {
+  display: none;
+}
+
+.experience-intro {
+  max-width: 800px;
+  margin-bottom: 2.5rem;
+  color: var(--bs-secondary-color);
+}
+
+.experience-section {
+  margin-top: 3rem;
+}
+
+.experience-section > h2 {
+  padding-bottom: 0.6rem;
+  margin-bottom: 0;
+  border-bottom: 2px solid var(--bs-border-color);
+}
+
+.experience-item {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: 2rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--bs-border-color);
+}
+
+.experience-date {
+  font-size: 0.90rem;
+  line-height: 1.6;
+  color: var(--bs-secondary-color);
+}
+
+.experience-content h3 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+  font-size: 1.35rem;
+}
+
+.experience-organization {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.experience-content li {
+  margin-bottom: 0.55rem;
+  line-height: 1.6;
+}
+
+.course-group {
+  margin-top: 1.4rem;
+}
+
+.course-group h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.course-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 160px;
+  gap: 1.5rem;
+  padding: 0.2rem 0;
+  line-height: 1.5;
+}
+
+.course-term {
+  text-align: right;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .course-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-bottom: 0.75rem;
+  }
+
+  .course-term {
+    text-align: left;
+    color: var(--bs-secondary-color);
+  }
+}
+
+</style>
+
+<div class="experience-intro">
+
+My professional experience spans industry, teaching, and statistical
+consulting, with an emphasis on data analysis, quality control,
+statistical methodology, and interdisciplinary collaboration.
+
+</div>
+
+
+::: {.experience-section}
+
+## Academic Experience
+
+::: {.experience-item}
+
+::: {.experience-date}
+
+**August 2023 – Present**
+
+Fort Collins, CO
+
+:::
+
+::: {.experience-content}
+
+### Graduate Teaching Assistant & Instructor of Record
+
+<div class="experience-organization">
+
+Colorado State University, Department of Statistics
+
+</div>
+
+- Served as instructor of record for multiple sections of STAT 301,
+  independently preparing and delivering lectures, grading assignments
+  and examinations, and administering course assessments.
+
+- Led recitation sections and office hours for undergraduate statistics
+  courses, providing individualized support, explaining statistical
+  concepts, and helping students strengthen their problem-solving and
+  data-analysis skills.
+
+- Supported undergraduate and graduate statistics courses by grading
+  coursework, reviewing and revising instructional materials,
+  communicating student feedback to faculty, and serving as a liaison
+  between instructors and students.
+
+### Courses Taught and Supported
+
+<div class="course-group">
+
+#### Instructor of Record
+
+<div class="course-row">
+  <div>Introduction to Applied Statistical Methods (STAT 301)</div>
+  <div class="course-term">Spring 2026</div>
+</div>
+
+<div class="course-row">
+  <div>Introduction to Applied Statistical Methods (STAT 301)</div>
+  <div class="course-term">Fall 2025</div>
+</div>
+
+<div class="course-row">
+  <div>Introduction to Applied Statistical Methods (STAT 301)</div>
+  <div class="course-term">Summer 2025</div>
+</div>
+
+</div>
+
+<div class="course-group">
+
+#### Recitation Instructor
+
+<div class="course-row">
+  <div>Statistics with Business Applications (STAT 204)</div>
+  <div class="course-term">Summer 2024</div>
+</div>
+
+<div class="course-row">
+  <div>Statistics with Business Applications (STAT 204)</div>
+  <div class="course-term">Spring 2024, 2025</div>
+</div>
+
+<div class="course-row">
+  <div>Statistics with Business Applications (STAT 204)</div>
+  <div class="course-term">Fall 2023, 2024</div>
+</div>
+
+<div class="course-row">
+  <div>General Statistics (STAT 201)</div>
+  <div class="course-term">Spring 2024</div>
+</div>
+
+</div>
+
+<div class="course-group">
+
+#### Teaching Assistant
+
+<div class="course-row">
+  <div>Statistical Consulting (STAA 556)</div>
+  <div class="course-term">Summer 2026</div>
+</div>
+
+<div class="course-row">
+  <div>Statistical Research — Design, Data, Methods (STAT 472)</div>
+  <div class="course-term">Spring 2026</div>
+</div>
+
+<div class="course-row">
+  <div>Design and Data Analysis for Researchers I (STAR 511)</div>
+  <div class="course-term">Fall 2024</div>
+</div>
+
+</div>
+
+:::
+
+:::
+
+
+::: {.experience-item}
+
+::: {.experience-date}
+
+**January 2026 – May 2026**
+
+Fort Collins, CO
+
+:::
+
+::: {.experience-content}
+
+### Graduate Statistical Consultant
+
+<div class="experience-organization">
+
+[Franklin A. Graybill Statistics and Data Science Laboratory](https://statlab.colostate.edu/),  
+Colorado State University
+
+</div>
+
+- Staffed four hours of weekly drop-in consultation sessions, meeting
+  with graduate students and faculty from across disciplines to clarify
+  research questions and identify appropriate analytical next steps.
+
+- Provided guidance on data formatting, data wrangling, visualization,
+  and common statistical analyses, helping clients understand statistical
+  methods and troubleshoot their implementation.
+
+- Documented consultation sessions, researched unresolved questions,
+  followed up with clients, and referred complex or longer-term projects
+  to faculty statistical consultants when appropriate.
+
+:::
+
+:::
+
+
+::: {.experience-item}
+
+::: {.experience-date}
+
+**August 2020 – May 2021**
+
+West Lafayette, IN
+
+:::
+
+::: {.experience-content}
+
+### Graduate Statistical Consultant
+
+<div class="experience-organization">
+
+[Statistical Consulting Service](https://www.stat.purdue.edu/scs/),  
+Purdue University Department of Statistics
+
+</div>
+
+- Provided statistical consulting support to more than 20 clients from
+  diverse academic disciplines, helping clarify research objectives,
+  evaluate study designs, and identify appropriate analytical approaches.
+
+- Conducted initial and follow-up consultations in collaboration with
+  clients, faculty advisors, and SCS faculty, and communicated statistical
+  recommendations throughout each project's development.
+
+- Authored more than 100 consultation and project reports documenting
+  research questions, study backgrounds, analytical recommendations,
+  project progress, responsibilities, and next steps.
+
+:::
+
+:::
+
+:::
+
+::: {.experience-section}
+
+## Industry Experience
+
+::: {.experience-item}
+
+::: {.experience-date}
+
+**August 2021 – July 2023**
+
+Dallas, TX
+
+:::
+
+::: {.experience-content}
+
+### Data Analyst
+
+<div class="experience-organization">
+
+[BioStone Animal Health LLC](https://biostoneah.com/)
+
+</div>
+
+- Contributed to the development of an ELISA assay data analysis
+  application through requirements definition, feature design, analytical
+  output validation, project coordination, and user-feedback analysis.
+
+- Collected, consolidated, and analyzed laboratory batch-testing data in
+  Excel to evaluate diagnostic kit performance and prepare quality-control
+  reports.
+
+- Redesigned the company's quality-control reporting template,
+  establishing a standardized format that continued to be used for
+  subsequent product batches.
+
+- Organized and tracked production and order data across diagnostic kit
+  assembly, fulfillment, and distribution, and developed standard
+  operating procedures to improve workflow consistency.
+
+- Collaborated with laboratory, production, business, and international
+  teams, including offices in Turkey and Guangzhou, to support product
+  development and cross-regional operations.
+
+- Built and maintained the company's website using WordPress and HTML,
+  and revised product instructions to improve technical accuracy and
+  usability.
+
+:::
+
+:::
+
+:::
