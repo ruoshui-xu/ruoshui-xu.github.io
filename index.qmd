@@ -14,12 +14,15 @@ about:
     - icon: book
       text: Google Scholar
       href: https://scholar.google.com/citations?user=Durv0qQAAAAJ&hl=en
+      target: _blank
     - icon: github
       text: ruoshui-xu
       href: https://github.com/ruoshui-xu
+      target: _blank
     - icon: linkedin
       text: Ruoshui Xu
       href: https://www.linkedin.com/in/ruoshui-xu
+      target: _blank
 ---
 
 ::: {#hero-heading}

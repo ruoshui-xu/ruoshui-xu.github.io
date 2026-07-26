@@ -117,7 +117,7 @@ Fort Collins, CO
 
 ::: {.experience-content}
 
-### Graduate Teaching Assistant & Instructor of Record
+### Graduate Teaching Assistant
 
 <div class="experience-organization">
 
@@ -230,8 +230,8 @@ Fort Collins, CO
 
 <div class="experience-organization">
 
-[Franklin A. Graybill Statistics and Data Science Laboratory](https://statlab.colostate.edu/),  
-Colorado State University
+[Franklin A. Graybill Statistics and Data Science Laboratory](https://statlab.colostate.edu/){target="_blank"},  
+Colorado State University Department of Statistics
 
 </div>
 
@@ -268,7 +268,7 @@ West Lafayette, IN
 
 <div class="experience-organization">
 
-[Statistical Consulting Service](https://www.stat.purdue.edu/scs/),  
+[Statistical Consulting Service](https://www.stat.purdue.edu/scs/){target="_blank"},  
 Purdue University Department of Statistics
 
 </div>
@@ -311,7 +311,7 @@ Dallas, TX
 
 <div class="experience-organization">
 
-[BioStone Animal Health LLC](https://biostoneah.com/)
+[BioStone Animal Health LLC](https://biostoneah.com/){target="_blank"}
 
 </div>
 

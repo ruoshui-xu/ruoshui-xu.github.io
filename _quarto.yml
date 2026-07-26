@@ -23,6 +23,7 @@ website:
         href: about.qmd
       - text: "CV"
         href: CV.pdf
+        target: _blank
       
 
 format:
