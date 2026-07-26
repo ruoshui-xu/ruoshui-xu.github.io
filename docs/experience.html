@@ -151,6 +151,8 @@ ul.task-list li input[type="checkbox"] {
   display: none;
 }
 
+/* ---------- General layout ---------- */
+
 .experience-intro {
   max-width: 800px;
   margin-bottom: 2.5rem;
@@ -159,6 +161,7 @@ ul.task-list li input[type="checkbox"] {
 
 .experience-section {
   margin-top: 3rem;
+  min-width: 0;
 }
 
 .experience-section > h2 {
@@ -167,35 +170,56 @@ ul.task-list li input[type="checkbox"] {
   border-bottom: 2px solid var(--bs-border-color);
 }
 
+/* ---------- Experience entries ---------- */
+
 .experience-item {
   display: grid;
   grid-template-columns: 170px minmax(0, 1fr);
   gap: 2rem;
+  align-items: start;
   padding: 2rem 0;
   border-bottom: 1px solid var(--bs-border-color);
 }
 
 .experience-date {
-  font-size: 0.90rem;
+  font-size: 0.9rem;
   line-height: 1.6;
   color: var(--bs-secondary-color);
+}
+
+.experience-date p {
+  margin-bottom: 0.25rem;
+}
+
+.experience-content {
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 
 .experience-content h3 {
   margin-top: 0;
   margin-bottom: 0.25rem;
   font-size: 1.35rem;
+  line-height: 1.35;
 }
 
 .experience-organization {
   margin-bottom: 1rem;
   font-weight: 600;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.experience-content ul {
+  padding-left: 1.25rem;
 }
 
 .experience-content li {
   margin-bottom: 0.55rem;
   line-height: 1.6;
 }
+
+/* ---------- Course list ---------- */
 
 .course-group {
   margin-top: 1.4rem;
@@ -215,24 +239,124 @@ ul.task-list li input[type="checkbox"] {
   line-height: 1.5;
 }
 
+.course-row > div:first-child {
+  min-width: 0;
+}
+
 .course-term {
   text-align: right;
   white-space: nowrap;
 }
 
+/* ---------- Tablet and mobile ---------- */
+
 @media (max-width: 768px) {
+  .experience-intro {
+    max-width: none;
+    margin-bottom: 1.75rem;
+    line-height: 1.6;
+  }
+
+  .experience-section {
+    margin-top: 2.25rem;
+  }
+
+  .experience-section > h2 {
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .experience-item {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+    padding: 1.5rem 0;
+  }
+
+  .experience-date {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.15rem 0.6rem;
+    font-size: 0.88rem;
+  }
+
+  .experience-date p {
+    margin: 0;
+  }
+
+  .experience-date p + p::before {
+    content: "•";
+    margin-right: 0.6rem;
+  }
+
+  .experience-content h3 {
+    font-size: 1.25rem;
+  }
+
+  .experience-organization {
+    margin-bottom: 0.85rem;
+  }
+
+  .experience-content ul {
+    margin-bottom: 0;
+    padding-left: 1.15rem;
+  }
+
+  .experience-content li {
+    margin-bottom: 0.7rem;
+    padding-left: 0.1rem;
+    line-height: 1.55;
+  }
+
+  .course-group {
+    margin-top: 1.1rem;
+  }
+
   .course-row {
     grid-template-columns: 1fr;
-    gap: 0;
-    margin-bottom: 0.75rem;
+    gap: 0.05rem;
+    padding: 0.3rem 0 0.6rem;
   }
 
   .course-term {
     text-align: left;
+    white-space: normal;
+    font-size: 0.88rem;
     color: var(--bs-secondary-color);
   }
 }
 
+/* ---------- Small phones ---------- */
+
+@media (max-width: 480px) {
+  .experience-intro {
+    font-size: 0.95rem;
+  }
+
+  .experience-section > h2 {
+    font-size: 1.4rem;
+  }
+
+  .experience-content h3 {
+    font-size: 1.18rem;
+  }
+
+  .experience-organization {
+    font-size: 0.95rem;
+  }
+
+  .experience-content li {
+    font-size: 0.95rem;
+  }
+
+  .course-group h4 {
+    font-size: 0.98rem;
+  }
+
+  .course-row {
+    font-size: 0.94rem;
+  }
+}
 </style>
 <div class="experience-intro">
 <p>My professional experience spans industry, teaching, and statistical consulting, with an emphasis on data analysis, quality control, statistical methodology, and interdisciplinary collaboration.</p>
