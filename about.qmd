@@ -159,7 +159,7 @@ I enjoy traveling and driving. So far, I have visited **40 U.S. states**. Each j
 
 <img
   class="section-photo"
-  src="images\about_img\travel\us_footprints.png"
+  src="images/about_img/travel/us_footprints.png"
   alt="Map of the United States with footprints marking visited states">
 
 <p class="image-caption">
@@ -180,13 +180,13 @@ A map of the United States with footprints marking the states I have visited.
 
 <img
   class="section-photo"
-  src="images\about_img\sports\table_tennis.jpg"
+  src="images/about_img/sports/table_tennis.jpg"
   alt="Playing table tennis"
 >
 
 <img
   class="section-photo"
-  src="images\about_img\sports\tennis.png"
+  src="images/about_img/sports/tennis.png"
   alt="Participating in a tennis tournament"
 >
 
@@ -252,19 +252,19 @@ I also enjoy running and swimming. Over the years, I have completed several runn
 
 <img
   class="section-photo"
-  src="images\about_img\sports\dallas_marathon.JPG"
+  src="images/about_img/sports/dallas_marathon.JPG"
   alt="Participating in the Dallas Marathon"
 >
 
 <img
   class="section-photo"
-  src="images\about_img\sports\bj_triathlon.JPG"
+  src="images/about_img/sports/bj_triathlon.JPG"
   alt="Participating in the Beijing International Triathlon"
 >
 
 <img
   class="section-photo"
-  src="images\about_img\sports\qin_marathon.JPG"
+  src="images/about_img/sports/qin_marathon.JPG"
   alt="Participating in the Qinhuangdao International Marathon"
 >
 
@@ -286,7 +286,7 @@ Some memories from running and triathlon events.
 
 <img
   class="wechat-qr"
-  src="images\about_img\writing\wechat_qr.jpg"
+  src="images/about_img/writing/wechat_qr.jpg"
   alt="QR code for my WeChat Official Account"
 >
 
