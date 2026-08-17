@@ -149,7 +149,7 @@ toc: false
 
 <div>
 
-## Travel
+## Road Trips
 
 I enjoy traveling and driving. So far, I have visited **40 U.S. states**. Each journey has given me opportunities to experience different cities and cultures, meeting new people, and creating unforgettable memories.
 
@@ -198,7 +198,7 @@ Some memories from intramural sports and tennis tournaments.
 
 <div>
 
-## Playing
+## Ball Games
 
 I enjoy different racket sports, especially **table tennis, badminton, and tennis**. I started playing table tennis at a young age. During college, I was a member of both the university **table tennis team** and **badminton team**. They require quick reactions, but also patience and concentration.
 
@@ -214,7 +214,7 @@ I enjoy different racket sports, especially **table tennis, badminton, and tenni
 
 <div>
 
-## Endurance
+## Cardio
 
 I also enjoy running and swimming. Over the years, I have completed several running and triathlon events. They gave me a different kind of feeling when I build endurance, consistency, and the ability to continue moving forward.
 
@@ -298,7 +298,7 @@ Scan the QR code to explore my travel notes.
 
 <div>
 
-## Writing
+## Blogs
 
 I also enjoy writing. During my travels, I document my journeys on my personal WeChat Official Account, **行囊中的梦** (*Dreams in My Backpack*). It is part travel diary and part photo wall, the people I have met, and the moments I want to remember.
 
