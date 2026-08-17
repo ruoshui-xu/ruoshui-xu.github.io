@@ -271,12 +271,12 @@ Colorado State University, Department of Statistics
 
 <div class="course-row">
   <div>Introduction to Applied Statistical Methods (STAT 301)</div>
-  <div class="course-term">Spring 2026</div>
+  <div class="course-term">Fall 2025, 2026</div>
 </div>
 
 <div class="course-row">
   <div>Introduction to Applied Statistical Methods (STAT 301)</div>
-  <div class="course-term">Fall 2025</div>
+  <div class="course-term">Spring 2026</div>
 </div>
 
 <div class="course-row">
@@ -292,17 +292,17 @@ Colorado State University, Department of Statistics
 
 <div class="course-row">
   <div>Statistics with Business Applications (STAT 204)</div>
-  <div class="course-term">Summer 2024</div>
-</div>
-
-<div class="course-row">
-  <div>Statistics with Business Applications (STAT 204)</div>
   <div class="course-term">Spring 2024, 2025</div>
 </div>
 
 <div class="course-row">
   <div>Statistics with Business Applications (STAT 204)</div>
   <div class="course-term">Fall 2023, 2024</div>
+</div>
+
+<div class="course-row">
+  <div>Statistics with Business Applications (STAT 204)</div>
+  <div class="course-term">Summer 2024</div>
 </div>
 
 <div class="course-row">
@@ -343,6 +343,8 @@ Colorado State University, Department of Statistics
 ::: {.experience-date}
 
 **January 2026 – May 2026**
+
+**August 2026 – December 2026**
 
 Fort Collins, CO
 
